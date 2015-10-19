@@ -1,0 +1,25 @@
+body {
+	background-color: #7A6154;
+	
+}
+
+#container {
+	background-color: #DEC9BF;
+	margin: 0 auto;
+	width: 750px;
+
+}
+
+span {
+	font-family: sans-serif;
+	font-size: 14pt;
+	line-height: 25pt;
+	margin-right: 25px;
+	margin-left: 70px;
+}
+
+.removeButton {
+	float: right;
+	line-height: 20pt;
+
+}
