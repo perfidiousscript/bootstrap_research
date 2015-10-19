@@ -8,7 +8,7 @@ $(document).ready(function(){
 		//Create string with ID, Sq.ft, price per sq. ft. and fills them with random number
 		//from randomNumber function. min/max values added per generated number.
 		var $el = $("#container").children().last()
-		$el.append("<span>Property ID: " + randomNumber(100,9999) + " </span><span>" + randomNumber(2000,9999) + " Sq. Ft.</span><span> $" + randomNumber(4,30) + " sq.ft</span><button class='removeButton'>Remove</button>");
+		$el.append("<span>Property ID: " + randomNumber(1000,9999) + " </span><span>" + randomNumber(2000,9999) + " Sq. Ft.</span><span> $" + randomNumber(4,30) + " sq.ft</span><button class='removeButton'>Remove</button>");
 		//Intially hides $el
 		$el.hide();
 		//Slides down $el

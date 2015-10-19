@@ -1,6 +1,6 @@
 body {
 	background-color: #7A6154;
-	
+
 }
 
 #container {
@@ -20,6 +20,12 @@ span {
 
 .removeButton {
 	float: right;
-	line-height: 20pt;
+	line-height: 17pt;
+	margin-top: 3px;
+	margin-right: 10px;
 
 }
+
+#container div:nth-child(even){
+	background-color: #F2E5DF;
+	}
