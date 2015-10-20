@@ -1,3 +1,6 @@
+//a var that holds the number of properites generated
+var propertiesGenerated = 0;
+
 $(document).ready(function(){
 	
 	//Generate Number function: every time generate number button is clicked appends a div class 
@@ -13,16 +16,21 @@ $(document).ready(function(){
 		$el.hide();
 		//Slides down $el
 		$el.slideDown();
+		//every time a new property is generated the 
+		//propertiesGenerated var is incremented
+		//and the badge is updated
+		propertiesGenerated++
+		$(".badge").text(propertiesGenerated);
 	})
 
 		//Slides line up on click of Remove button
 		$("#container").on('click', '.removeButton', function(){
 			console.log("button click");
 			$(this).parent().slideUp();
-
-
-});
-});
+		});
+		//This sets the badge text to the number of properties generated
+		$(".badge").text(propertiesGenerated);
+	});
 
 	
 //Create random number between min value and max value
