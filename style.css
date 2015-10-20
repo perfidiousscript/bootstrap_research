@@ -11,6 +11,10 @@ p {
 	color: #DEC9BF;
 }
 
+.badge {
+	margin-left: 0px
+}
+
 #container {
 	background-color: #DEC9BF;
 	margin: 0 auto;

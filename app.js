@@ -27,6 +27,8 @@ $(document).ready(function(){
 		$("#container").on('click', '.removeButton', function(){
 			console.log("button click");
 			$(this).parent().slideUp();
+			propertiesGenerated--
+			$(".badge").text(propertiesGenerated);
 		});
 		//This sets the badge text to the number of properties generated
 		$(".badge").text(propertiesGenerated);
